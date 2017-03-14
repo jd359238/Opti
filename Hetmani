@@ -1,4 +1,4 @@
-n=5 #Wybór wielkości szachownicy, n=5 Szachownica 5x5
+n=5 # Wybór wielkości szachownicy, n=5 Szachownica 5x5
 def hetmani(n):
     general=""
     kol=""
@@ -37,14 +37,14 @@ def hetmani(n):
         if (x <> 1 and x <> n): # Jakaś tam ifologia by się nie dublować... 
             print przek1 + ' <= 1'
             print przek3 + ' <= 1'
-        if (x <> n):   # I nie wypisywać ograniczeń typu x1,1<=1
+        if (x <> n):   # I nie wypisywać ograniczeń typu x1,1<=1, które są zbędne bo wynikają z innych
             print przek2 + ' <= 1'
             print przek4 + ' <= 1'
         przek1=""
         przek2=""
         przek3=""
         przek4=""
-    print '\n \n' + "Bounds "
+    print '\n \n' + "Bounds " # Nie potrzeba nam, solver przyjmuje zawsze xij>=0, z innych warunków wynika xij<=1
     print '\n \n' + "General "
     print general
     return;
