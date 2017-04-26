@@ -6,6 +6,6 @@ show(P.standard_form())
 show(P.standard_form().run_simplex_method())
 
 #problem dualny
-P=P.dual().standard_form()
-show(P) #Zgodnie z tabelką, nie ma ograniczeń na nowe zmienne, więc dzieli ja na część dodatnią i ujmeną
-show(P.run_simplex_method())
+P=P.dual()
+show(P.standard_form()) #Zgodnie z tabelką, nie ma ograniczeń na nowe zmienne, więc dzieli ja na część dodatnią i ujmeną
+show(P.standard_form().run_simplex_method())
