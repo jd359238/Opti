@@ -1,0 +1,11 @@
+A=[[1, 4, 0], [3, -1, 1]]
+b=[1, 3]
+c=[4, 1, 3]
+P=InteractiveLPProblem(A, b, c, constraint_type="<=", variable_type=">=")
+show(P.standard_form())
+show(P.standard_form().run_simplex_method())
+
+#problem dualny
+P=P.dual()
+show(P.standard_form())
+show(P.standard_form().run_simplex_method())
