@@ -1,0 +1,11 @@
+A=[[1, -5, 3], [2, -9, 7], [-1, 6, 7]]
+b=[3, 8, 2]
+c=[2, -3, -2]
+P=InteractiveLPProblemStandardForm(A, b, c)
+show(P)
+show(P.run_simplex_method())
+
+#problem dualny
+P=P.dual().standard_form()
+show(P)
+show(P.run_simplex_method())
