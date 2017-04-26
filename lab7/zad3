@@ -7,5 +7,5 @@ show(P.standard_form().run_simplex_method())
 
 #problem dualny
 P=P.dual()
-show(P)
+show(P) #Problem dualny nie wie, skąd zacząć
 show(P.standard_form().run_simplex_method())
