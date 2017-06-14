@@ -9,3 +9,5 @@ Zadanie 4: https://github.com/nk359779/Optymalizacja/tree/master/Lab8/pd (wraz z
 
 Zadanie 5: https://github.com/nk359779/Optymalizacja/tree/master/Lab10 (wraz z Natalią Kwiecień)
 
+Projekt 1: https://github.com/nk359779/Optymalizacja/blob/master/Projekt1 (wraz z Natalią Kwiecień)
+
